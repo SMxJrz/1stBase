@@ -16,9 +16,8 @@ var plugins = [
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.CommonsChunkPlugin('common', 'common.js'),
-//    new BowerWebpackPlugin()
-
 ]
+
 module.exports = {
     context: path.resolve(__dirname, 'app'),
     entry: {
